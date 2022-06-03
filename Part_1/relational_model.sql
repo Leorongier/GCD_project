@@ -193,3 +193,4 @@ CREATE TABLE 'Issue_reprint' (
     FOREIGN KEY 'origin_issue_id' REFERENCES 'Issue' ('iid'),
     FOREIGN KEY 'target_issue_id' REFERENCES 'Issue' ('iid')
 );
+#COUCOU 
